@@ -2,7 +2,7 @@
 bitmap_ring written by Hubery Tao on Oct 27th, 2022
 should function on x64 machines supporting
 BSF, BTC and CMPXCHG instructions
-gcc version > 8 (defining __GCC_ASM_FLAG_OUTPUTS__) is needed
+gcc version >= 6 (defining __GCC_ASM_FLAG_OUTPUTS__) is needed
 */
 
 #pragma once
